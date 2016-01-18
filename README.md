@@ -10,3 +10,9 @@ Multi platformdur Windows / Linux / Macos hepsinde çalışır
 Unutmadan Saniye milisaniye cinsi olarak ayarlandı varsayılan olaran 5000 ms yani 5 Saniye bekler :) siz katları olarak arttırabilirsiniz örneğin 60000 ms 1 dakikadır
 
 Systemtray küçültünce tekrar işlemler bitene kadar göremezsiniz programı :) ama çalışır ve işlemlerini bitirir. Ufak tefek taları olabilir :)
+
+
+Sadece kullanmak isteyen arkadaşlar   (dist)  klasörü içerisinde TwitterApi.jar   dosyasını çalıştırmalısınız
+
+
+programı çalışması için Java Sanal Makinası Kurulu olmalı bilgisayarınızda
