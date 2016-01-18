@@ -12,7 +12,4 @@ Unutmadan Saniye milisaniye cinsi olarak ayarlandı varsayılan olaran 5000 ms y
 Systemtray küçültünce tekrar işlemler bitene kadar göremezsiniz programı :) ama çalışır ve işlemlerini bitirir. Ufak tefek taları olabilir :)
 
 
-Sadece kullanmak isteyen arkadaşlar   (dist)  klasörü içerisinde TwitterApi.jar   dosyasını çalıştırmalısınız
-
-
-programı çalışması için Java Sanal Makinası Kurulu olmalı bilgisayarınızda
+TwitterApi.java  dosyası içerisindeki keyleri kendi uygulamanıza göre düzenleyin
