@@ -15,10 +15,10 @@ public class TwitterApi {
     public TwitterApi(File[] dosyalar, Integer KacSaniye, String mesaj) throws FileNotFoundException {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("eY1hFp4P2HFHqVVGkviGmFyXv")
-                .setOAuthConsumerSecret("vulIux5WpkTB2uzl2mF0TvxbuHh6MdE62nOxN1kXak8G7oTWdb")
-                .setOAuthAccessToken("4756136914-dxavoMBZl2xKQs1FldjEfy4BIhtWLBWAWVWSMUX")
-                .setOAuthAccessTokenSecret("1E9QmgNiQknJ8NCPiTMs43HO5oqZdRedo1jm4Ycfg2Uj3");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
 
