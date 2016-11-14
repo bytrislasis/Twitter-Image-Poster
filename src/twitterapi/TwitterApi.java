@@ -17,7 +17,7 @@ public class TwitterApi {
         cb.setDebugEnabled(true)
                 .setOAuthConsumerKey("Sizin ConsumerKey Bilginiz")
                 .setOAuthConsumerSecret("Sizin ConsumerSecret Bilginiz")
-                .setOAuthAccessToken("Sizin AccessToken Bilginiz")
+                .setOAuthAccessToken("Sizin AccessToken Bilginiz") 
                 .setOAuthAccessTokenSecret("");
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
