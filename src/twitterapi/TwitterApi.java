@@ -15,9 +15,9 @@ public class TwitterApi {
     public TwitterApi(File[] dosyalar, Integer KacSaniye, String mesaj) throws FileNotFoundException {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("")
-                .setOAuthConsumerSecret("")
-                .setOAuthAccessToken("")
+                .setOAuthConsumerKey("Sizin ConsumerKey Bilginiz")
+                .setOAuthConsumerSecret("Sizin ConsumerSecret Bilginiz")
+                .setOAuthAccessToken("Sizin AccessToken Bilginiz")
                 .setOAuthAccessTokenSecret("");
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
